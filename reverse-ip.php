@@ -47,7 +47,7 @@ foreach ($expld as $hihi) {
     }
     if (is_null($decoded)) continue;
     foreach ($decoded as $value) {
-        file_put_contents('result/' . $willow . '.txt', "{$value["domain"]}\n", FILE_APPEND | LOCK_EX);
+        file_put_contents('result/result.txt', "{$value["domain"]}\n", FILE_APPEND | LOCK_EX);
         print($value["domain"] . "\n");
     }
 
