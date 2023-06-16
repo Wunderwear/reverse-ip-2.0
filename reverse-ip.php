@@ -53,3 +53,5 @@ foreach ($expld as $hihi) {
 
     curl_close($curl);
 }
+
+?>
